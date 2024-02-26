@@ -167,3 +167,23 @@ button {
 .item__delete--btn {
   background-image: linear-gradient(to top left, #e52a5a, #ff585f);
 }
+
+@media (max-width: 426px) {
+  .container {
+    width: 368px;
+  }
+
+  .container__display h2 {
+    font-size: 1.3rem;
+  }
+
+  .form__container {
+    flex-wrap: wrap;
+  }
+
+  select,
+  input,
+  button {
+    margin: 10px 5px 6px 5px;
+  }
+}

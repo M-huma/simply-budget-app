@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
+    <title>Simply Budgets</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container__display">
+        <h2>
+          Available Budget in <span class="display__title--month">Month</span>
+        </h2>
+        <p class="budget__display">+1,628.75</p>
+      </div>
+      <div class="expenses__container">
+        <div class="income__container">
+          Income
+          <div class="right">
+            <div class="budget__income--value">+ 10000</div>
+            <div class="budget__income--percentage">&nbsp;</div>
+          </div>
+        </div>
+
+        <div class="expense__container">
+          Expenses
+          <div class="right">
+            <div class="budget__expense--value">+ 10000</div>
+            <div class="budget__expense--percentage">&nbsp;</div>
+          </div>
+        </div>
+      </div>
+      <div class="tracker__container">
+        <div class="form__container">
+          <select title="dropdown" name="select" class="add__type">
+            <option value="inc">Add to income</option>
+            <option value="exp">Add to expense</option>
+          </select>
+          <input
+            type="text"
+            class="add__description"
+            placeholder="Add description"
+          />
+          <input type="number" class="add__value" placeholder="Value" />
+          <button class="add__btn" type="button">ADD</button>
+        </div>
+        <div class="expenses__list">
+          <div class="income__tab">
+            <!-- <div class="item clearfix" id="income-0">
+              <div class="item__description">Salary</div>
+              <div class="right clearfix">
+                <div class="item__value">+ 1,500.00</div>
+                <div class="item__delete">
+                  <button class="item__detlete--btn" type="button">X</button>
+                </div>
+              </div>
+            </div>
+            <div class="item clearfix" id="income-1">
+              <div class="item__description">Sold Car</div>
+              <div class="right clearfix">
+                <div class="item__value">+ 5,500.00</div>
+                <div class="item__delete">
+                  <button class="item__detlete--btn" type="button">X</button>
+                </div>
+              </div>
+            </div> -->
+          </div>
+
+          <div class="expense__tab">
+            <!-- <div class="item clearfix" id="expense-0">
+              <div class="item__description">apartament Rent</div>
+              <div class="right clearfix">
+                <div class="item__value">+ 900.00</div>
+                <div class="item__percentage">21%</div>
+                <div class="item__delete">
+                  <button class="item__detlete--btn" type="button">X</button>
+                </div>
+              </div>
+            </div>
+            <div class="item clearfix" id="expense-1">
+                <div class="item__description">Grocery Shooping</div>
+                <div class="right clearfix">
+                  <div class="item__value">+ 435.00</div>
+                  <div class="item__percentage">10%</div>
+                  <div class="item__delete">
+                    <button class="item__detlete--btn" type="button">X</button>
+                  </div>
+                </div>
+              </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

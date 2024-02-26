@@ -1,7 +1,7 @@
 {
   "name": "simply-budget-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Budget application",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
